@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart - GeekBuying.com</title>
+    <link rel="stylesheet" href="../cart/styles/navbar.css">
+   <link rel="stylesheet" href="../cart/styles/index.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+    </div>
+
+    <div id="pr">
+
+        <p>Product Name & Detail</p>
+        <div id="shipTo">
+            <p>Ship to</p>
+        </div>
+    </div>
+
+    <table cellspacing="0" >
+      <thead id="tableH">
+        <tr>
+            <td>Product Name & Detail</td>
+            <td>Unit Price</td>
+            <td>Quantity</td>
+            <td>Total</td>
+            <td>Operation</td>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+         
+      </tbody>
+    </table>
+    <div id="delBox">
+    <div id="del">
+        <p>Remove selected product(s) from your cart?</p>
+        <div>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+    </div>
+   </div>
+   <div id="msgBox">
+    <div id="msg">
+        <p>Message</p>
+        <div>
+            <p>Please select the products first.</p>
+            <button style="cursor:pointer">OK</button>
+        </div>
+    </div>
+   </div>
+    <div id="orderDiv">
+        <a>Continue</a>
+        <div>
+            <span style="color:rgb(137, 131, 131);">You choose <b style="color:black" id="quantityTotal">0</b> item(s)</span>
+            <span><b style="color:black">Total : </b><b style="color:red;font-size:28px;"><span style="color:red;font-size:28px;" id="totalValue"></span ></b></span>
+            <img src="https://content1.geekbuying.com/V1.4/en/images/cartImg/new_pp.png">
+            <button>Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <div id="footIcon" style="padding:20px 0px 10px 0px;width:100%;margin:auto;background-color:rgb(235, 237, 240)">
+        <img style='width:89%;margin:auto;padding: 0% 5.5%;' src="https://content1.geekbuying.com/V1.4/en/images/shopcart_footicon.png">
+        <p style="text-align:center;color:rgba(128, 128, 128, 0.965);font-family:sans-serif;">© 2012-2022 Geekbuying.com. All rights reserved</p>
+    </div>
+</body>
+
+</html>
+
+<script type='module' src="./scripts/index.js"></script>

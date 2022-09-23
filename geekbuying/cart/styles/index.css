@@ -1,0 +1,235 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#pr{
+    width:89%;
+    margin:auto;
+    margin-top:3%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:sans-serif;
+    font-size:15px;
+}
+
+#pr>p{
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:550;
+}
+
+table{
+    width:89%;
+    margin:auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(137, 131, 131);
+    table-layout:auto;
+}
+table>#tableH{
+   height:fit-content;
+}
+table>#tableH>tr>td{
+    padding:13px 30px;
+    background:rgb(237, 228, 228);
+}
+
+#tableH>tr>td:first-child{
+    width:50%;
+}
+
+table table{
+    width:100%;
+    margin-top:50px;
+    border:1px solid rgb(221, 207, 207);
+    border-radius:10px;
+    table-layout:auto;
+    color:black;
+}
+
+table table>thead>tr>td{
+    white-space: nowrap;
+    width:50%;
+    padding:20px 40px;
+}
+#tableBody>tr>td>table>tbody>tr:nth-last-of-type(2)>td{
+    border-bottom:1px solid  rgb(221, 207, 207);
+}
+#tableBody>tr>td>table>tbody>tr:last-child>td:last-child{
+    padding:20px 5px;
+    border:none;
+}
+#tableBody>tr>td>table>tbody>tr>td:first-child{
+    width:100%;
+    padding:5px;
+    display:flex;
+    align-items: center;
+    gap:0px 20px;
+}
+
+#tableBody>tr>td>table>tbody>tr>td:nth-child(1)>img{
+    width:100px;
+    height:100px;
+}
+
+#tableBody>tr>td>table>tbody>tr>td:nth-child(2){
+  width:10%;
+  text-align:center;
+}
+
+#tableBody table>tbody>tr>td:nth-child(3){
+   width:15%;
+   text-align:center;
+}
+#tableBody table>tbody>tr>td:nth-child(3)>p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tableBody table>tbody>tr>td:nth-child(3)>p>span:nth-child(1){
+    padding:2px 8px;
+    border:1px solid rgb(217, 204, 204);
+    font-size:17px;
+    font-weight:bold;
+}
+#tableBody table>tbody>tr>td:nth-child(3)>p>span:nth-child(2){
+    padding:3px 18px;
+    border:1px solid rgb(217, 204, 204);
+}
+#tableBody table>tbody>tr>td:nth-child(3)>p>span:nth-child(3){
+    padding:2px 11px;
+    border:1px solid rgb(217, 204, 204);
+    font-size:17px;
+    font-weight:bold;
+}
+#tableBody table>tbody>tr>td:nth-child(4){
+    width:10%;
+    text-align:center;
+    font-weight:bold;
+    color:black;
+}
+#tableBody table>tbody>tr>td:nth-child(5){
+    text-align:center;
+    text-decoration:underline;
+}
+
+#orderDiv{
+    display:flex;
+    align-items:center;
+    width:89%;
+    height:140px;
+    margin:auto;
+    border:1px solid rgb(217, 204, 204);
+    border-radius:10px;
+    margin-top:50px;
+    justify-content:space-between;
+    font-family:sans-serif;
+    margin-bottom:50px;
+}
+#orderDiv>a{
+    padding-left:5px;
+}
+#orderDiv>div{
+    display:flex;
+    align-items:center;
+    padding-right:5px;
+    gap:20px;
+}
+#orderDiv img{
+    width:240px;
+    height:50px;
+    cursor:pointer;
+}
+#orderDiv button{
+    width:240px;
+    height:50px;
+    background-color:rgb(30, 138, 239);
+    color:white;
+    font-size:16px;
+    border:none;
+    cursor:pointer;
+}
+
+#delBox{
+display:none;
+background:rgba(128, 128, 128, 0.415);
+position:fixed;
+top:0px;
+width:100vw;
+height:100vh;
+}
+
+#del{
+    font-family:sans-serif;
+    border:1px solid rgba(128, 128, 128, 0.423);
+    width:350px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius:10px;
+    position:fixed;
+    top:40%;
+    background:white;
+    left:40%;
+}
+
+#del>div{
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    gap:20px;
+}
+
+#del button:first-child{
+    background:rgb(74, 74, 240);
+    color:white;
+    font-size:16px;
+    padding: 5px 22px;
+    border:none; 
+}
+#del button:last-child{
+    font-size:16px;
+    padding: 5px 22px;
+    border:1px solid rgb(220, 200, 200);
+}
+
+#msgBox{
+    display:none;
+    background:rgba(128, 128, 128, 0.415);
+    position:fixed;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    }
+#msg{
+    font-family:sans-serif;
+    border:1px solid rgba(128, 128, 128, 0.423);
+    width:350px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius:10px;
+    position:fixed;
+    top:40%;
+    background:white;
+    left:40%;
+}
+#msg>p{
+    font-size:20px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-bottom:-5px;
+    margin-top:0px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.542);
+}
+#msg>div{
+    padding: 10px 10px;
+    gap:20px;
+}
+
+#msg button{
+    background:rgb(74, 74, 240);
+    color:white;
+    font-size:16px;
+    padding: 5px 22px;
+    border:none; 
+    margin-top:10px;
+}

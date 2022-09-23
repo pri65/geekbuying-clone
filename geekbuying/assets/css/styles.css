@@ -1,0 +1,51 @@
+@media only screen and (min-width: 300px) {
+  .mob-hid {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .mob-down-margin {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .mob-width {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .w-100.d-block.car-1 {
+    height: 200px !important;
+    width: 460px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mob-hid {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .w-100.d-block.car-1 {
+    height: 460px !important;
+    width: 460px;
+  }
+}
+
+.col-4 {
+  padding-right: 0px;
+  height: 100%;
+  padding-left: 0px;
+}
+@media only screen and (min-width: 50px) and (max-width: 992px) {
+  .dora {
+    display: none;
+  }
+  .luffy {
+    display: none;
+  }
+}

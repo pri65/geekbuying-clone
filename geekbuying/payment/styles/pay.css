@@ -1,0 +1,228 @@
+h3{
+    width:89%;
+    font-family:sans-serif;
+    margin:auto;
+    margin-top:50px;
+}
+
+#payMethod{
+    width:89%;
+    font-family:sans-serif;
+    margin:auto;
+    margin-top:50px;
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+
+#payMethod>div:first-child{
+    padding:10px 25px;
+    border:1px solid rgba(217, 212, 212, 0.809);
+    width:60%;
+    border-radius:5px;
+}
+
+#methods>div{
+    display:flex;
+    gap:25px;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+#methods>div>div>p{
+    margin-top:2%;
+    color:gray;
+    font-size:16px;
+}
+
+#orDet{
+    width:30%;
+    padding:0px 25px 25px 25px;
+    border:1px solid rgba(217, 212, 212, 0.809);
+    height:fit-content;
+    border-radius:5px;
+}
+#ordDiv{
+    display:grid;
+    width:100%;
+}
+
+#ordDiv button{
+    background-color:rgba(0, 0, 255, 0.69);
+    border:none;
+    color:white;
+    font-size:25px;
+    padding: 10px 0px;
+    border-radius:5px;
+}
+
+button{
+    cursor:pointer;
+}
+
+#msgBox{
+    display:none;
+    background:rgba(128, 128, 128, 0.415);
+    position:fixed;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    }
+#msg{
+    font-family:sans-serif;
+    border:1px solid rgba(128, 128, 128, 0.423);
+    width:350px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius:10px;
+    position:fixed;
+    top:40%;
+    background:white;
+    left:40%;
+}
+#msg>p{
+    font-size:20px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-bottom:-5px;
+    margin-top:0px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.542);
+}
+#msg>div{
+    padding: 10px 10px;
+    gap:20px;
+}
+
+#msg button{
+    background:rgb(74, 74, 240);
+    color:white;
+    font-size:16px;
+    padding: 5px 22px;
+    border:none; 
+    margin-top:10px;
+}
+
+#methods>#visaForm{
+    padding-left:40px;
+    display:none;
+}
+
+#visaForm>p:first-child input{
+    width:450px;
+    padding:10px 17px;
+}
+
+#visaForm p{
+    display:flex;
+    gap:30px;
+}
+
+#visaForm>p:last-child input{
+    width:205px;
+    padding:10px
+}
+
+
+#msgBox1{
+    display:none;
+    background:rgba(128, 128, 128, 0.415);
+    position:fixed;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    }
+#msg1{
+    font-family:sans-serif;
+    border:1px solid rgba(128, 128, 128, 0.423);
+    width:350px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius:10px;
+    position:fixed;
+    top:40%;
+    background:white;
+    left:40%;
+}
+#msg1>p{
+    font-size:20px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-bottom:-5px;
+    margin-top:0px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.542);
+}
+#msg1>div{
+    padding: 10px 10px;
+    gap:20px;
+}
+
+#msg1 button{
+    background:rgb(74, 74, 240);
+    color:white;
+    font-size:16px;
+    padding: 5px 22px;
+    border:none; 
+    margin-top:10px;
+}
+
+
+#msgBox2{
+    display:none;
+    background:rgba(128, 128, 128, 0.415);
+    position:fixed;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    }
+#msg2{
+    font-family:sans-serif;
+    border:1px solid rgba(128, 128, 128, 0.423);
+    width:350px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius:10px;
+    position:fixed;
+    top:40%;
+    background:white;
+    left:40%;
+}
+#msg2>p{
+    font-size:20px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-bottom:-5px;
+    margin-top:0px;
+    color:rgb(40, 127, 96);
+}
+#msg2>div{
+    padding: 10px 40px;
+    /* display:grid;
+    align-items: center;
+    justify-content: center; */
+    gap:20px;
+    max-width:100%;
+}
+
+#msg2 button{
+    background:rgb(74, 74, 240);
+    color:white;
+    font-size:16px;
+    padding: 5px 22px;
+    border:none; 
+    margin-top:10px;
+}
+
+#msg2>div>p{
+    display:flex;
+    justify-content: space-between;
+}
+
+#signBox2{
+    display:none;
+    background:rgba(128, 128, 128, 0.415);
+    position:fixed;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    }

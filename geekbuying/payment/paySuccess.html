@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - GeekBuying.com</title>
+    <link rel="stylesheet" href="../cart/styles/navbar.css">
+    <link rel="stylesheet" href="./styles/paySuccess.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div id="orderBox">
+        <img style="width:80px" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/523/posts/32694/final_image/tutorial-preview-large.png">
+        <p>Order Confirmed</p>
+        <p>Your order is confirmed. You will receive and order confirmation email/SMS shortly with the expected delivery date for your items</p>
+        <span><button>CONTINUE SHOPPING</button></span>
+    </div>
+</body>
+</html>
+
+<script type="module">
+import {navbar} from '../../cart/scripts/navbar.js';
+
+document.querySelector('#navbar').innerHTML = navbar();
+
+</script>

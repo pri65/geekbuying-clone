@@ -1,0 +1,51 @@
+#orderBox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:40%;
+    margin:auto;
+    padding:50px 100px;
+    text-align:center;
+    margin-top:5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#orderBox>p:nth-child(2){
+    font-size:30px;
+    font-weight:bold;
+    color:rgb(24, 147, 129);
+}
+
+#orderBox>p:nth-child(3){
+    line-height:20px;
+    font-size:16px;
+    color:rgb(114, 104, 104)
+}
+
+#orderBox span>button:first-child{
+   width:200px;
+   height:40px;
+   font-size:17px;
+   font-weight:550;
+   background:lightcoral;
+   color:white;
+   border: none;
+   border-radius:5px;
+   cursor:pointer;
+   margin-top:60px;
+}
+
+#orderBox span{
+    margin-top:80px;
+}
+
+#orderBox span>button:last-child{
+    width:200px;
+    height:40px;
+    font-size:17px;
+    font-weight:550;
+    background:rgb(147, 255, 147);
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:60px;
+ }

@@ -1,0 +1,165 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* // outer box  */
+.allProductBoxOuter {
+  border: 2px solid white;
+  background-color: white;
+}
+
+.allProdcutBoxInner {
+  border: 10px solid transparent;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1%;
+  grid-template-rows: 50% 10% 10% 10% 10%;
+}
+.allProdcutBoxInner:hover{
+    box-shadow: #2a7ff7 1px 1px 7px 1px;
+}
+.allProdcutBoxInner > :nth-child(n) {
+  margin-bottom: 10px;
+}
+.innerProductImage img {
+  width: 140px;
+  width: 100%;
+  height: 100%;
+}
+
+.footerBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likeProduct {
+  display: flex;
+  width: 20%;
+  font-size: 1.1rem;
+  justify-content: space-around;
+}
+
+.likeProduct img {
+  height: 20px;
+  cursor: pointer;
+}
+
+#midbar {
+  height: 150px;
+  background-color: aliceblue;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bottombar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#gridProductView {
+  /* height: 80vh; */
+  /* background-color: grey; */
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  /* grid-template-rows: 1fr; */
+  grid-gap: 10px;
+}
+#gridProductView > div {
+  height: auto;
+  /* background-color: #1073fe; */
+}
+
+.innerProductImage img {
+  width: 100%;
+}
+
+.productNameInBox {
+  font-size: 1.1rem;
+  height: 40px;
+  line-height: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+
+.priceInfo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.actualPriceInfo {
+  color: grey;
+}
+
+.actualPriceInBox {
+  margin-right: 10px;
+}
+
+/* // pagination  */
+
+#paginationMain {
+  width: 320px;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#paginationOnView {
+  display: flex;
+  width: 240px;
+  height: 60px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 15px solid transparent;
+}
+
+#paginationOnView > div {
+  height: 40px;
+  margin: 5px;
+  min-width: 40px;
+  border: 1px solid #2a7ff7;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #2a7ff7;
+  cursor: pointer;
+}
+#paginationOnView > div:hover {
+  background-color: #2a7ff7;
+  color: white;
+}
+
+#rightPaginationButton,
+#leftPaginationButton {
+  color: #2a7ff7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  background-color: white;
+  width: 35px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 1px solid #2a7ff7;
+  border-radius: 9px;
+  cursor: pointer;
+}
+#rightPaginationButton:hover,
+#leftPaginationButton:hover {
+  background-color: #2a7ff7;
+  color: white;
+}

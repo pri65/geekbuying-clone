@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - GeekBuying.com</title>
+    <link rel="stylesheet" href="../cart/styles/navbar.css">
+    <link rel="stylesheet" href="./styles/pay.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <h3>Payment Method</h3>
+
+    <div id="payMethod">
+        <div id="methods">
+            <div id="klarna">
+                <input type="radio">
+                <div> <img src="https://content1.geekbuying.com/V1.4/en/images/cartImg/Adyen_Klarna.jpg?v=20220609">
+                    <p>Pay now with Klarna</p>
+                </div>
+
+            </div>
+            <div id="sofort">
+                <input type="radio">
+                <div> <img src="https://content1.geekbuying.com/V1.4/en/images/cartImg/Adyen_Sofort.jpg?v=20220609">
+                    <p>Pay by Sofort</p>
+                </div>
+            </div>
+            <div id="paypal">
+                <input type="radio">
+                <div> <img src="https://content1.geekbuying.com/V1.4/en/images/cartImg/paypal.jpg?v=20220609">
+                    <p>The safer, easier way to pay.</p>
+                </div>
+            </div>
+            <div id="giropay">
+                <input type="radio">
+                <div> <img src="https://content1.geekbuying.com/V1.4/en/images/cartImg/Adyen_Giropay.jpg?v=20220609">
+                    <p>Pay by Giropay</p>
+                </div>
+            </div>
+            <div id="visa">
+                <input type="radio">
+                <div> <img src="https://content1.geekbuying.com/V1.4/en/images/cartImg/useepaylog.jpg?v=20220609">
+                    <p>Pay by credit/debit card directly.</p>
+                </div>
+
+            </div>
+            <div id="visaForm">
+                <p><input type='number' id="num" placeholder='Card Number (16 digit)'></p>
+                <p><input type='text' id='mmyy' placeholder="MM/YY" onfocus="(this.type='month')"
+                        onblur="(this.type='text')"><input type='text' id="cvv" placeholder="CVV (4 digit - 1234)"
+                        max="4"></p>
+            </div>
+        </div>
+        <span id="orDet">
+
+            <div id="ordDiv">
+                <p style="display:flex;justify-content:space-between;font-size:17px;margin-bottom:-5px"><span>Order
+                        No.:</span><b></b></p>
+                <p
+                    style="display:flex;justify-content:space-between;font-size:17px;padding-bottom:20px;border-bottom:1px solid rgba(217, 212, 212, 0.809);">
+                    <span>Grand Total:</span><b></b></p>
+                <p style="display:flex;justify-content:space-between;align-items:center;font-size:17px;"><span>Payable
+                        Amount:</span><b style="color:red;font-size:25px"></b></p>
+                <button>Pay</button>
+            </div>
+        </span>
+    </div>
+    <div id="msgBox">
+        <div id="msg">
+            <p>Message</p>
+            <div>
+                <p>Please select the products first.</p>
+                <button style="cursor:pointer">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="msgBox1">
+        <div id="msg1">
+            <p>Enter OTP</p>
+            <div>
+                <p>A 4 digit OTP has been sent to your registered mobile number. Enter OTP to continue!</p>
+                <input id='otp' style="padding:5px 10px;border-radius:5px;"  type="number" placeholder="ENTER OTP (1234)">
+                <button style="cursor:pointer">OK</button>
+            </div>
+        </div>
+    </div>
+    <div id="msgBox2">
+        <div id="msg2">
+            <p>Payment Successful</p>
+            <div>
+                <img style="width:70px; " src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/523/posts/32694/final_image/tutorial-preview-large.png">
+                <p><span>Amount Paid:</span><span>1</span></p>
+                <p><span>Transaction ID:</span><span>1</span></p>
+                <button style="cursor:pointer">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="signBox2">
+        <div id="sign2">
+            <p>Payment Successful</p>
+            <div>
+                <img style="width:70px; " src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/523/posts/32694/final_image/tutorial-preview-large.png">
+                <p><span>Amount Paid:</span><span>1</span></p>
+                <p><span>Transaction ID:</span><span>1</span></p>
+                <button style="cursor:pointer">OK</button>
+            </div>
+        </div>
+    </div>
+    <div id="footIcon" style="padding:20px 0px 10px 0px;width:100%;margin:auto;background-color:rgb(235, 237, 240)">
+        <img style='width:89%;margin:auto;padding: 0% 5.5%;'
+            src="https://content1.geekbuying.com/V1.4/en/images/shopcart_footicon.png">
+        <p style="text-align:center;color:rgba(128, 128, 128, 0.965);font-family:sans-serif;">© 2012-2022
+            Geekbuying.com. All rights reserved</p>
+    </div>
+</body>
+
+</html>
+<script type="module" src="./scripts/pay.js"></script>
