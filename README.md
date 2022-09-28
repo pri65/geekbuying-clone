@@ -8,7 +8,8 @@
     <a href="#Contributors">Contributors</a> &#10023;
   </p>
   
-  GeekBuying is one of the leading E-commerce platforms selling a wide range of consumer electronic gadgets. Here at Geekbuying you can expect to find products you'll love, superior service, and fast global shipping!
+  GeekBuying is one of the leading E-commerce platforms selling a wide range of consumer electronic gadgets. Here at Geekbuyin
+g you can expect to find products you'll love, superior service, and fast global shipping!
   
 
 <br />
@@ -21,6 +22,13 @@
 - payment mode
 
 <br/>
+
+## Glimpse of Website
+ 
+   ![Homepage](https://user-images.githubusercontent.com/101036458/192740788-a2223beb-8810-4942-9c58-022f2b49cb95.png)
+    ![Footer](https://user-images.githubusercontent.com/101036458/192740738-c6f4cf5e-a2c2-4c85-9259-9e9a7dd8e236.png)
+    ![Dropdown Menu](https://user-images.githubusercontent.com/101036458/192740913-122d7290-6c70-4155-85e3-4202ef9414ad.png)
+    ![Category Page](https://user-images.githubusercontent.com/101036458/192740967-76c246fb-33ac-4314-8ad0-7648a703a9d9.png)
 
 ## Getting Started
 
